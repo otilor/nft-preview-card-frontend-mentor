@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="grid h-screen place-items-center">
-          <div className="card-bg rounded-2xl text-white">
+          <div className="card-bg rounded-2xl text-white w-1/3">
             <div className="m-4">
               <Image
                 className="rounded-2xl w-full"
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="m-4">
               <h4 className="font-bold">Equilibrium #3429</h4>
-              <p className="">Our Equilibrium collection promotes balance and calm.</p>
+              <p className="text-xl break-all">Our Equilibrium collection promotes balance and calm.</p>
             </div>
           </div>
         </div>
