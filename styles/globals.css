@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: hsl(217, 54%, 11%)
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-bg {
+  background-color: hsl(216, 50%, 16%);
 }
