@@ -25,7 +25,7 @@ export default function Home() {
                 alt="Ethereum Icon"
               />
             </div>
-            <div className="m-4 w-min">
+            <div className="m-4">
               <h4 className="font-bold">Equilibrium #3429</h4>
               <p className="">Our Equilibrium collection promotes balance and calm.</p>
             </div>
