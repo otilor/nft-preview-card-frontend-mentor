@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
+import {FaEthereum} from 'react-icons/fa';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,15 @@ export default function Home() {
             <div className="m-4">
               <h4 className="font-bold">Equilibrium #3429</h4>
               <p className="mt-4 break-words">Our Equilibrium collection promotes balance and calm.</p>
+            </div>
+            <div className="grid grid-cols-2 place-content-end">
+              <span className="m-4">
+                <FaEthereum className="inline-flex"/><span className="inline-flex">0.041 ETH</span>
+              </span>
+              
+              <div>
+
+              </div>
             </div>
           </div>
         </div>
