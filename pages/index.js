@@ -14,6 +14,9 @@ export default function Home() {
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
       <main>
+        <div className='grid h-screen place-items-center'>
+        
+        </div>
       </main>
     </>
   )
