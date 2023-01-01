@@ -18,7 +18,7 @@ export default function Home() {
           <div className="card-bg rounded-2xl text-white">
             <div className="m-4">
               <Image
-                className="rounded-2xl"
+                className="rounded-2xl w-full"
                 src="/images/image-equilibrium.jpg"
                 width={300}
                 height={300}
