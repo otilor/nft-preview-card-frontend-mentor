@@ -9,3 +9,7 @@ body {
 .card-bg {
   background-color: hsl(216, 50%, 16%);
 }
+
+.bg-hr {
+  backrgound-color: hsl(215, 32%, 27%);
+}
