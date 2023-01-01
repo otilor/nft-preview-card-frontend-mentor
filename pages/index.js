@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <main>
         <div className='grid h-screen place-items-center'>
-        
+          <div className='bg-card w-100 h-100'>
+            <Image src="/images/image-equilibrium.jpg" width={100} height={100} alt="Ethereum Icon"/>
+          </div>
         </div>
       </main>
     </>
