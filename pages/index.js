@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="m-4">
               <h4 className="font-bold">Equilibrium #3429</h4>
-              <p className="break-all">Our Equilibrium collection promotes balance and calm.</p>
+              <p className="break-words">Our Equilibrium collection promotes balance and calm.</p>
             </div>
           </div>
         </div>
