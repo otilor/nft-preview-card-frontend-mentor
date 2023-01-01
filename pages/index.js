@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -14,14 +14,20 @@ export default function Home() {
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
       <main>
-        <div className='grid h-screen place-items-center'>
-          <div className='card-bg rounded-2xl text-white'>
-          <div className='m-4'>
-            <Image className='rounded-2xl' src="/images/image-equilibrium.jpg" width={300} height={300} alt="Ethereum Icon"/>
-          </div>
+        <div className="grid h-screen place-items-center">
+          <div className="card-bg rounded-2xl text-white">
+            <div className="m-4">
+              <Image
+                className="rounded-2xl"
+                src="/images/image-equilibrium.jpg"
+                width={300}
+                height={300}
+                alt="Ethereum Icon"
+              />
+            </div>
           </div>
         </div>
       </main>
     </>
-  )
+  );
 }
