@@ -31,8 +31,8 @@ export default function Home() {
               <p className="mt-4 break-words">Our Equilibrium collection promotes balance and calm.</p>
             </div>
             <div className="grid  mx-4 grid-cols-2">
-              <div className="">
-                <FaEthereum className="inline-flex"/><span className="inline-flex font-bold text-teal-500">0.041 ETH</span>
+              <div className="font-bold text-teal-500">
+                <FaEthereum className="inline-flex"/><span className="inline-flex">0.041 ETH</span>
               </div>
               <div className="grid grid-row mx-4 mb-4 -mr-0 place-items-end">
                 <span>3 days left</span>
