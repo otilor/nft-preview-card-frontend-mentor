@@ -37,7 +37,7 @@ export default function Home() {
               </div>
               <div className="inline-flex items-baseline mx-4 mb-4">
               <FaClock />
-                <span>3 days left</span>
+                <span className="px-2 ">3 days left</span>
               </div>
               
               <div>
