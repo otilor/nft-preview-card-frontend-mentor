@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import {FaEthereum} from 'react-icons/fa';
+import {FaClock} from 'react-icons/fa';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +35,8 @@ export default function Home() {
               <div className="font-bold text-teal-500">
                 <FaEthereum className="inline-flex"/><span className="inline-flex">0.041 ETH</span>
               </div>
-              <div className="grid grid-row mx-4 mb-4 -mr-0 place-items-end">
+              <div className="inline-flex items-baseline mx-4 mb-4">
+              <FaClock />
                 <span>3 days left</span>
               </div>
               
