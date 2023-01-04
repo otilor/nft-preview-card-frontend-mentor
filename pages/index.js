@@ -35,8 +35,8 @@ export default function Home() {
               <div className="font-bold text-teal-500">
                 <FaEthereum className="inline-flex"/><span className="inline-flex">0.041 ETH</span>
               </div>
-              <div className="inline-flex items-baseline mx-4 mb-4">
-              <FaClock className="text-slate-400"/>
+              <div className="inline-flex text-slate-400 items-baseline mx-4 mb-4">
+              <FaClock />
                 <span className="px-2 ">3 days left</span>
               </div>
               
